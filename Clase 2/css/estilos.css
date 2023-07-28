@@ -1,0 +1,21 @@
+body {
+    font-size: 20px;
+}
+
+p {
+    width: 80vw;
+    color: blue;
+    font-size: 0.8em;
+}
+
+article {
+    width: 50em;
+    color: blueviolet;
+    font-size: 0.8rem;
+}
+
+div {
+    width: 60vw;
+    color: yellowgreen;
+    font-size: 2rem;
+}
