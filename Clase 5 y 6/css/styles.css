@@ -1,0 +1,35 @@
+/*Selector class e hijo*/
+.first p {
+  color: brown;
+}
+
+/*Selector por id*/
+#text1 {
+  background-color: aqua;
+}
+
+/*Selector hijo*/
+article > h1 {
+  color: blue;
+}
+
+/*Selector hermano*/
+.second ul strong ~ li {
+  color: blueviolet;
+}
+
+/*Selector de hermano adyacente*/
+.first ul strong + li {
+  background-color: gold;
+}
+
+/*Selector múltiple*/
+.first strong,
+#text2 {
+  color: aquamarine;
+}
+
+/*Selector universal*/
+div > * {
+  background-color: beige;
+}
