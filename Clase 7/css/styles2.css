@@ -1,0 +1,28 @@
+/*Tipo de hijo*/
+
+section div:first-of-type {
+  color: red;
+}
+section :first-of-type {
+  background-color: blue;
+}
+
+:nth-of-type(3) {
+  color: rgb(12, 242, 12);
+}
+
+section :nth-last-of-type(1) {
+  background-color: yellow;
+}
+
+section :only-child {
+  color: blueviolet;
+}
+
+section :only-of-type {
+  color: blueviolet;
+}
+
+section :empty {
+  background-color: rgb(166, 94, 6);
+}

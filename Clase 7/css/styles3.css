@@ -1,0 +1,31 @@
+/*pseudoclase-de-interaccion*/
+
+/*se activa al pasar el Mouse por encima*/
+section :hover {
+  background-color: red;
+  padding: 2px;
+}
+
+section:hover h3 {
+  background-color: blue;
+  padding: 2px;
+}
+
+/*cuando estoy sosteniendo el click*/
+section:active {
+  color: yellow;
+}
+
+/*cuando el imput está clickeado y listo para escribir*/
+input:focus {
+  background-color: brown;
+}
+
+/*calquer elemento descendiente tenga foco se le activa a todo*/
+form:focus-within {
+  padding-left: 10px;
+}
+
+/**/
+section:focus-visible {
+}

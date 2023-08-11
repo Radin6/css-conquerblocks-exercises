@@ -1,0 +1,26 @@
+/*Pseudoclase de hijo*/
+
+li:first-child {
+  color: red;
+}
+
+li:last-child {
+  color: blue;
+}
+
+li:nth-child(3) {
+  background-color: yellow;
+}
+
+li:nth-last-child(2) {
+  color: aquamarine;
+}
+
+li:nth-child(2n + 1) {
+}
+
+li:nth-child(odd) {
+}
+
+li:nth-child(even) {
+}
