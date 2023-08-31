@@ -1,0 +1,25 @@
+.contenedor {
+  border: 5px solid red;
+  width: fit-content;
+}
+
+.caja1 {
+  width: 50%;
+  border: 5px solid blue;
+  background-color: rgb(224, 224, 224);
+  margin: 10px 0 0 10px;
+}
+
+.caja2 {
+  width: 50%;
+  border: 5px solid green;
+  background-color: rgb(224, 224, 224);
+  margin: 10px 0 0 50px;
+}
+
+.caja3 {
+  width: 50%;
+  border: 5px solid yellow;
+  background-color: rgb(224, 224, 224);
+  margin: 10px 0 10px 100px;
+}
