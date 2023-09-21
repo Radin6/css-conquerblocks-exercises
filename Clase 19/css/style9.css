@@ -1,0 +1,35 @@
+* {
+  font-size: 25px;
+  font-weight: bold;
+}
+section {
+  width: 300px;
+  height: 100px;
+  border: 1px solid black;
+  position: relative;
+}
+div {
+  position: absolute;
+  font-size: 10px;
+}
+.logo {
+  border: 1px solid black;
+  width: 40%;
+  height: 20%;
+  left: 5px;
+  top: 5px;
+}
+.top-menu {
+  border: 1px solid black;
+  width: 30%;
+  height: 15%;
+  right: 5px;
+  top: 5px;
+}
+.menu {
+  border: 1px solid black;
+  width: 70%;
+  height: 15%;
+  bottom: 5px;
+  right: 5px;
+}

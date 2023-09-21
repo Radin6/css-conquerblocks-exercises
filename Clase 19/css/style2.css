@@ -1,0 +1,35 @@
+* {
+  font-size: 25px;
+  font-weight: bold;
+}
+section {
+  width: 300px;
+  height: 200px;
+  border: 2px solid black;
+  position: relative;
+}
+div {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+.d1 {
+  background-color: red;
+  top: 0px;
+  left: 0px;
+}
+.d2 {
+  background-color: blue;
+  right: 0px;
+  bottom: 0px;
+}
+.d3 {
+  background-color: green;
+  left: 0px;
+  bottom: 0px;
+}
+.d4 {
+  background-color: yellow;
+  right: 0px;
+  top: 0px;
+}
