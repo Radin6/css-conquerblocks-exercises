@@ -1,0 +1,35 @@
+section {
+  max-width: min-content;
+}
+
+.countries {
+  display: flex;
+}
+
+article {
+  font-size: 12px;
+  text-align: justify;
+  padding: 5px;
+}
+
+article:nth-child(1) {
+  background-color: rgb(92, 168, 164);
+}
+
+article:nth-child(2) {
+  background-color: lightblue;
+}
+
+article:nth-child(3) {
+  background-color: rgb(237, 176, 176);
+}
+
+.title {
+  display: flex;
+  color: white;
+  background-color: black;
+  height: 40px;
+  justify-content: flex-end;
+  padding-right: 10px;
+  align-items: center;
+}

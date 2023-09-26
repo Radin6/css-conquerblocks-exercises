@@ -1,0 +1,15 @@
+.pics {
+  background-color: gray;
+  display: flex;
+  gap: 10px;
+}
+
+.title {
+  color: white;
+  background-color: rgb(80, 80, 80);
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
