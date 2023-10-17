@@ -1,0 +1,180 @@
+body {
+  background-image: linear-gradient(to right, rgb(255, 85, 0), purple);
+  padding: 3%;
+}
+
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+header > * {
+  background-color: goldenrod;
+}
+
+.first {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(https://loremflickr.com/600/400);
+  background-size: cover;
+  height: 400px;
+  grid-row: 1 / span 2;
+}
+
+.first > * {
+  width: fit-content;
+  background-color: goldenrod;
+}
+
+.first img {
+  width: 100%;
+}
+
+.cta-1,
+.cta-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.price {
+  font-size: 50px;
+  padding: 0;
+  margin: 0;
+}
+
+.desc {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  margin: 20px 0 20px 0;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 0;
+}
+
+nav ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: goldenrod;
+  width: 100%;
+  height: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: blueviolet;
+}
+
+article {
+  background-color: antiquewhite;
+}
+
+.clasification {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 20px 0 20px 0;
+}
+
+.clasification article {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.clasification article > * {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  margin: 10px;
+}
+
+.logo {
+  font-size: 30px;
+}
+
+.bigArt {
+  display: flex;
+  height: 300px;
+}
+
+.bigArt div {
+  justify-content: center;
+  align-items: start;
+  width: 400px;
+  margin: auto 0 auto 0;
+}
+
+.bigArt img {
+  margin: auto 20px auto 20px;
+  height: 90%;
+}
+
+.footer-pics {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+
+.footer-pics img {
+  width: 100%;
+  height: 100%;
+}
+
+.strike {
+  margin: 20px 0 20px 0;
+}
+
+span {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 10px;
+}
+
+span:before {
+  content: "";
+  display: block;
+  height: 10px;
+  background-image: linear-gradient(to right, transparent, goldenrod);
+}
+
+span:after {
+  content: "";
+  display: block;
+  height: 10px;
+  background-image: linear-gradient(to left, transparent, goldenrod);
+}
+
+button {
+  background: goldenrod;
+  border: 0;
+  padding: 10px;
+}
+
+button:hover {
+  color: blueviolet;
+  border: 1px solid violet;
+}
